@@ -1,0 +1,82 @@
+/*{
+    Essa poha ta quebrando meu código
+  
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+*/
+
+body{
+    margin-top: 10%;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    background: linear-gradient( to right, white, rgb(40, 40, 168));
+ }
+
+.itens{
+    padding: 10px;
+    border-radius: 5%;
+    background-color: rgba(41, 39, 39, 0.9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgba(250, 0, 104, 0.733);
+    font-size: 30px;
+    width: 300px;
+   
+}
+
+.timer{
+    margin-top: 5px;
+}
+
+.start{
+    color:black;
+    background-color: rgb(74, 151, 63);
+    border: none;
+    cursor: pointer;
+    width: 80px;
+    height: 25px;
+    border-radius: 5%;
+
+}
+
+.start:hover{
+    background-color: white;
+}
+
+.pausar{
+    color:black;
+    background-color: rgb(151, 127, 63);
+    border: none;
+    cursor: pointer;
+    width: 80px;
+    height: 25px;
+    border-radius: 5%;
+
+}
+
+.pausar:hover{
+    background-color: white;
+
+}
+
+.zerar{
+    color:black;
+    background-color: rgb(151, 63, 63);
+    border: none;
+    cursor: pointer;
+    width: 80px;
+    height: 25px;
+    border-radius: 5%;
+
+}
+
+.zerar:hover{
+    background-color: white;
+    
+}
